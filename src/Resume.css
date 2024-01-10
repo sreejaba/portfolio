@@ -1,0 +1,70 @@
+/* .img_resume{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    right: 50%;
+    transform-origin: center right;
+    transform: rotateX(180deg);
+    transition: 5s ease-in;
+    transform-style: preserve-3d;
+    perspective: 0px;
+}
+.img_resume:hover{
+    transform: rotateX(0deg);
+    width: 50%;
+    height: 50%;
+    
+}
+.resume{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    right: 50%;
+    transform-origin: center right;
+    transform: rotateY(100deg);
+    transition: 1s ease-in;
+    background-color: blue;
+}
+.resume:hover{ */
+    /* transform: rotatey(0deg); */
+    /* width: 50%;
+    height: 50%;
+    
+} */
+
+.flip-card {
+    background-color: transparent;
+    width: 100vw;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100vw;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.4s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transform: rotateX(40deg);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateX(100deg);
+  }
+  
+
+  /* .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+   */

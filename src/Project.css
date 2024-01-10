@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+.projects{
+   background-color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    
+    font-size: larger;
+    position: relative;
+    top:-2px
+
+   
+}
+.p_img{
+    width: 37w;
+    height: 18vw;
+    
+
+}
+.single_pro{
+    margin-left: 5vw;
+    margin-top: 1rem;
+    margin-bottom: 5vh;
+    width: 40vw;
+    height: 23vw;
+    overflow-y: hidden;
+    border: 2px solid;
+   
+
+text-align: center;
+
+padding-top: 1rem;
+
+border-color: rgba(128, 128, 128, 0);
+
+   
+}
+
+.single_pro:hover{
+    --angle: 0deg;
+	border: 2px solid;
+    border-radius: 20px;
+    
+    /* border-color: blue; */
+	border-image: conic-gradient( from var(--angle), rgb(255, 255, 255), rgba(28, 114, 243, 0.715),rgb(255, 255, 255)) 1;
+    
+	
+	animation: 1s rotate linear infinite;
+  
+}
+
+@keyframes rotate {
+	to {
+		--angle: 360deg;
+	}
+}
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+  }
+  
+  
+  .pro_img_previw{
+    background-color: black;
+   text-align: center;
+   margin-bottom: 2rem;
+   
+  }
+ .pro_big_img{
+   
+    width: 60vw;
+    height: 30vw;
+  
+  
+  }

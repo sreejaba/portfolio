@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+.Skills{
+    background-color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-align: center;
+    height: auto;
+    
+}
+
+.h_skills{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.skills_c_l{
+    
+    z-index: 1;
+    width: 500vw;
+    text-align: right;
+    transition: transform ease-in 500ms;
+    overflow-y: hidden;
+
+}
+.skills_c:hover .skills_c_l{
+    transform: translatex(-100vw);
+    
+    
+}
+.skills_c_r{
+    
+    z-index: 1;
+    width: 500vw;
+    
+    transition: transform ease-in 500ms;
+    overflow-y: hidden;
+    
+    
+
+}
+.skills_c:hover .skills_c_r{
+    transform: translatex(100vw);
+    
+}
+.skills_p{
+
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    font-size: 8rem
+}

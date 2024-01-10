@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+.hello_main{
+    background-color: black;
+}
+.hello{
+    margin-top: 20vh;
+    font-size: 10vw;
+    height: 73vh;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-align: left;
+}
+
+.p_wish{
+
+    font-size: 5vw;
+}
+.P_Main_img{
+    animation: fade-in 3s;
+    position: absolute;
+    display: block;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    width: 93vh;
+    height: 93vh;
+    filter: grayscale(50%);
+  
+}
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 100;
+    }
+  }
+
+.P_sec_img{
+    position: absolute;
+    display: block;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-bottom: 90vh;
+    width: 93vh;
+    height: 93vh;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 500ms;
+   
+}
+
+
+.P_sec_img:hover{
+
+    opacity: 100;
+    
+}
